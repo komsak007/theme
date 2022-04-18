@@ -1,0 +1,1475 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1920px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  
+  body::-webkit-scrollbar {
+      display: none; /* for Chrome, Safari, and Opera */
+    }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+  }
+  
+  .navbar img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .navbar .mode {
+    width: 270px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 82px;
+    opacity: 0.5;
+    background-color: black;
+  }
+  
+  .mode button {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .container {
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+  
+  .main {
+    margin-top: 40px;
+  }
+  
+  .main .main-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .text-head {
+    font-family: "Delius Swash Caps";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    letter-spacing: 0.1em;
+    color: #9f821a;
+    transform: translate(31%, 0%);
+  }
+  
+  .button-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-facebook {
+    width: 50px;
+    height: 50px;
+    background: #c6a328;
+    border-radius: 100%;
+    left: 0;
+    margin-left: 5px;
+  }
+  
+  .icon-facebook img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-line {
+    width: 50px;
+    height: 50px;
+    background: #c6a328;
+    border-radius: 100%;
+    margin-left: 5px;
+  }
+  
+  .icon-line img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-twitter {
+    width: 50px;
+    height: 50px;
+    background: #c6a328;
+    border-radius: 100%;
+    margin-left: 5px;
+  }
+  
+  .icon-twitter img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-instagram {
+    width: 50px;
+    height: 50px;
+    background: #c6a328;
+    border-radius: 100%;
+    margin-left: 5px;
+  }
+  
+  .icon-instagram img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon-mail {
+    width: 50px;
+    height: 50px;
+    background: #c6a328;
+    border-radius: 100%;
+    margin-left: 5px;
+  }
+  
+  .icon-mail img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .search {
+    margin-top: 26px;
+  }
+  
+  .search label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #484b52;
+  }
+  
+  .mat-menu {
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .home {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #484b52;
+    width: 140px;
+  }
+  
+  .about {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #484b52;
+    width: 140px;
+  }
+  
+  .faq {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #484b52;
+    width: 140px;
+  }
+  
+  .login {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-user {
+    margin-right: 10px;
+    margin-top: 24px;
+  }
+  
+  .text-login {
+    margin-top: 30px;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #484b52;
+  }
+  
+  .icon-bag {
+    margin-top: 19px;
+    margin-left: 10px;
+  }
+  
+  .view {
+    margin-top: 50px;
+  }
+  
+  .view img {
+    width: 1756px;
+    height: 600px;
+  }
+  
+  .box-line {
+    width: 5%;
+    margin: auto;
+    padding-top: 125px;
+    padding-bottom: 40px;
+  }
+  
+  .line {
+    border: 3px solid #b1b8c6;
+    background-color: #b1b8c6;
+    position: absolute;
+    width: 64px;
+    height: 0px;
+  }
+  
+  .text-favorites {
+    /* transform: translate(27.6%, 0%); */
+    margin: auto;
+    width: 45%;
+    margin-bottom: 100px;
+  }
+  
+  .text-favorites label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 82px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #484b52;
+  }
+  
+  .grid-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+  }
+  
+  .item1 {
+    width: 868px;
+    height: 754px;
+  }
+  
+  .item1 .group-text .item1-head {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9f821a;
+    word-wrap: break-word;
+    width: 679px;
+    height: 160px;
+    margin-left: 100px;
+    width: 80%;
+  }
+  
+  .item1 .group-text .item1-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    word-wrap: break-word;
+    width: 70%;
+    margin-left: 100px;
+  }
+  
+  .item1 .group-text .button-more {
+    width: 120px;
+    height: 50px;
+    border: 1px solid #484b52;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  .item1 .group-text .button-more label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  .item2 {
+    width: 868px;
+    height: 754px;
+  }
+  
+  .grid-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 197px;
+  }
+  
+  .grid-container2 .item1 {
+    width: 868px;
+    height: 1068px;
+    /* border: 1px solid black; */
+  }
+  
+  .grid-container2 .item2 {
+    width: 868px;
+    height: 1068px;
+    /* border: 1px solid black; */
+  }
+  
+  .item1 .background-image {
+    width: 740px;
+    height: 921px;
+    background: rgba(255, 208, 208, 0.57);
+    box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.25);
+    transform: translate(0%, 16%);
+  }
+  
+  .item1 img {
+    position: absolute;
+    width: 788px;
+    height: 988px;
+    transform: translate(10%, -93.2%);
+  }
+  
+  .item2 {
+    width: 868px;
+    height: 754px;
+  }
+  
+  .item2 .group-text {
+    width: 868px;
+    height: 754px;
+    /* border: 1px solid black; */
+    transform: translate(-0.1%, 24%);
+  }
+  
+  .item2 .group-text .button-best-seller {
+    width: 193px;
+    height: 62px;
+    background: #9f821a;
+    margin-left: 100px;
+    border: 1px solid #9f821a;
+  }
+  
+  .item2 .group-text .button-best-seller label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+  
+  .group-text .item2-head {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9f821a;
+    word-wrap: break-word;
+    width: 679px;
+    height: 160px;
+    margin-left: 100px;
+    width: 80%;
+  }
+  
+  .group-text .item2-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    word-wrap: break-word;
+    width: 70%;
+    margin-left: 100px;
+  }
+  
+  .group-text .button-more {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    border: 1px solid #484b52;
+    box-sizing: border-box;
+    margin-left: 100px;
+    background-color: #ffffff;
+  }
+  
+  .group-text .button-more label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  
+  .text-lorem {
+    /* transform: translate(27.6%, 0%); */
+    margin: auto;
+    width: 25%;
+    margin-bottom: 50px;
+  }
+  
+  .text-lorem label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 90px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #484b52;
+  }
+  
+  .menu-lorem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+  }
+  
+  .text-lorem .menu-lorem {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+  }
+  
+  .text-lorem > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .menu-lorem .list-menu-lorem1 {
+  }
+  
+  .menu-lorem .list-menu-lorem1 .list-menu-gruop-text1 label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  
+  .menu-lorem .list-menu-lorem1 .list-menu-gruop-text1 p {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    word-wrap: break-word;
+    width: 70%;
+  }
+  
+  .menu-lorem .list-menu-lorem2 {
+  }
+  
+  .menu-lorem .list-menu-lorem2 .list-menu-gruop-text2 label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  
+  .menu-lorem .list-menu-lorem2 .list-menu-gruop-text2 p {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    word-wrap: break-word;
+    width: 70%;
+  }
+  
+  .menu-lorem .list-menu-lorem3 {
+  }
+  
+  .menu-lorem .list-menu-lorem3 .list-menu-gruop-text3 label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  
+  .menu-lorem .list-menu-lorem3 .list-menu-gruop-text3 p {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    word-wrap: break-word;
+    width: 70%;
+  }
+  
+  .last-navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .last-navbar .group-last {
+    position: absolute;
+    margin-top: 70px;
+  }
+  
+  .last-navbar .text-last-navbar {
+    transform: translate(50%, 0%);
+    width: 250px;
+    height: 70px;
+    color: #ffffff;
+  }
+  
+  .text-description-last {
+    transform: translate(4.2%, 0%);
+    width: 455px;
+    height: 50px;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+  
+  .last-navbar .group-icon-last {
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    height: 110px;
+    transform: translate(42%, 0%);
+  }
+  
+  .last-navbar .group-icon-last .icon-facebook.last img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+  }
+  
+  .last-navbar .group-icon-last .icon-line.last img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+  }
+  
+  .last-line {
+    transform: translate(0%, 8%);
+  }
+  
+  .last-navbar .group-icon-last .icon-twitter.last img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+  }
+  
+  .last-twitter {
+    transform: translate(0%, 8%);
+  }
+  
+  .last-navbar .group-icon-last .icon-instagram.last img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+  }
+  
+  .last-navbar .group-icon-last .icon-mail.last img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(0%, 4%);
+  }
+  
+  .last-mail {
+    transform: translate(0%, 12%);
+  }
+  
+  .last-navbar .text-connect label {
+    position: absolute;
+    width: 487px;
+    height: 21px;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .text-connect {
+    transform: translate(1%, 0%);
+  }
+  
+  .dark-mode {
+    background-color: #26282e;
+    color: white;
+  }
+  
+  .dark-mode .text-head {
+    font-family: "Delius Swash Caps";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    transform: translate(31%, 0%);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .active {
+    color: #c6a328;
+  }
+  
+  .text-about {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .text-about label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 82px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  
+    color: #484b52;
+  }
+  
+  .description-about {
+    text-align: center;
+    width: 1456px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .description-about p {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  
+  .text-reword {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .text-reword label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #9f821a;
+  }
+  
+  .line-vertical {
+    /* border-left: 6px solid green; */
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    border-left: 1px solid #d6dbe3;
+    margin-top: 15px;
+    margin-bottom: 90px;
+  }
+  
+  .line-vertical .text-left {
+    transform: translateX(-20%);
+    display: flex;
+  }
+  
+  .line-vertical .text-left .main-description {
+    margin-left: 20px;
+    padding-top: 22px;
+  }
+  
+  .line-vertical .text-left .main-description .year {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #9f821a;
+  }
+  
+  .line-vertical .text-left .main-description .description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #9f821a;
+  }
+  
+  .line-vertical .text-right {
+    transform: translateX(5%);
+    width: 505px;
+    height: 120px;
+  }
+  
+  .line-vertical .text-right .line-text-right {
+    width: 40px;
+    border: 1px solid #9f821a;
+    background-color: #9f821a;
+  }
+  
+  .line-vertical .text-right .description-text-right {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+  }
+  
+  .line-container {
+    width: 100%;
+    border-bottom: 1px solid #d6dbe3;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .text-head-title {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .text-head-title label {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 82px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #484b52;
+  }
+  
+  /* .text-list-menu{
+  margin: auto;
+  } */
+  
+  .text-list-menu {
+    width: 1460px;
+    height: auto;
+    margin: auto;
+  }
+  
+  .text-list-menu .menu-number {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .text-list-menu .menu-number .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-number .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-number .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-number .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-number .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .text-list-menu .line-list-menu {
+    width: 1460px;
+    border-bottom: 1px solid #d6dbe3;
+    background-color: #d6dbe3;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+  }
+  
+  .line-a-z {
+    border-bottom: 3px solid #d6dbe3;
+    width: 64px;
+    margin: auto;
+  }
+  
+  .text-list-menu .menu-numberA1 {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .text-list-menu .menu-numberA1 .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-numberA1 .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-numberA1 .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-numberA1 .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-numberA1 .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .text-list-menu .menu-numberA2 {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .text-list-menu .menu-numberA2 .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-numberA2 .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-numberA2 .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-numberA2 .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-numberA2 .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .text-list-menu .menu-numberA3 {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 100px;
+  }
+  
+  .text-list-menu .menu-numberA3 .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-numberA3 .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-numberA3 .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-numberA3 .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-numberA3 .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .text-list-menu .menu-numberB1 {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .text-list-menu .menu-numberB1 .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-numberB1 .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-numberB1 .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-numberB1 .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-numberB1 .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .text-list-menu .menu-numberB2 {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+  }
+  
+  .text-list-menu .menu-numberB2 .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-numberB2 .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-numberB2 .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-numberB2 .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-numberB2 .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .text-list-menu .menu-numberB3 {
+    width: 1460px;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 200px;
+  }
+  
+  .text-list-menu .menu-numberB3 .number {
+    width: 60px;
+    height: 60px;
+    background: #c6a328;
+    border-radius: 100%;
+  }
+  
+  .text-list-menu .menu-numberB3 .no-number {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 10px;
+  }
+  
+  .text-list-menu .menu-numberB3 .description-list-menu {
+    margin: auto;
+    position: relative;
+    top: 11px;
+  }
+  
+  .text-list-menu .menu-numberB3 .description-list-menu .head-description {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #9f821a;
+    width: 1360px;
+    height: 40px;
+    word-wrap: break-word;
+  }
+  
+  .text-list-menu .menu-numberB3 .description-list-menu .title-descript {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #484b52;
+    width: 1360px;
+    word-wrap: break-word;
+    top: 12px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: #484b52;
+    width: 100px;
+  }
+  
+  .search-input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+    width: 92px;
+    height: 30px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  
+  .slider span {
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  
+    color: #ffffff;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 10px;
+    bottom: 7px;
+    background: #ffffff;
+    border-radius: 4px;
+    transition: 0.4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2ec639;
+    border: none;
+  }
+  
+  input:checked + .slider span {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  
+    color: #ffffff;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196f3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(55px);
+  }
+  
+  .selectdiv {
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 30px;
+    /* border: 1px solid #ffffff; */
+    /* border-radius: 4px; */
+    top: 5px;
+  }
+  
+  .selectdiv:after {
+    content: "\f078";
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 6px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    /*     border-left: 1px solid #0ebeff; */
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  select {
+    display: none;
+  }
+  
+  .selectdiv select {
+    appearance: none;
+  
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 5px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #0ebeff;
+    word-break: normal;
+  }
+  
