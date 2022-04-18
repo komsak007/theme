@@ -7,12 +7,10 @@ import { FaqComponent } from './theme/theme-cute/page/faq/faq.component';
 import { HomeComponent } from './theme/theme-cute/page/home/home.component';
 import { ThemeCuteComponent } from './theme/theme-cute/theme-cute.component';
 
-const appRoute: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'faq', component: FaqComponent },
-  { path: '',   redirectTo: '/home', pathMatch: 'full' },
-  { path: '**',   redirectTo: '/home', pathMatch: 'full' },
+const appRoute: Routes = [ 
+  { path: 'theme', loadChildren: () => import('./theme/theme-cute/theme-cute.module').then((m) => m.ThemeCuteModule), },
+  { path: '',   redirectTo: '/theme/home', pathMatch: 'full' },
+  { path: '**',   redirectTo: '/theme/home', pathMatch: 'full' },
 ]
 
 @NgModule({
