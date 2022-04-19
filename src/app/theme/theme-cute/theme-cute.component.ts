@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ThemeCuteComponent implements OnInit {
   darkMode: any;
   textDark = "Light"
+  bodyElement = document.body;
 
   constructor() {}
 
@@ -23,8 +24,10 @@ export class ThemeCuteComponent implements OnInit {
     
     if(this.darkMode) {
       this.textDark = "Dark"
+      this.bodyElement.style.backgroundColor = 'black'
     } else {
       this.textDark = "Light"
+      this.bodyElement.style.backgroundColor = 'white'
     }
   }
 }
