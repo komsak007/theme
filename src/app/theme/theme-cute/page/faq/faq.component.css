@@ -1291,6 +1291,20 @@ body {
     color: #ffffff;
     top: 10px;
   }
+
+  .text-list-menu .menu-numberB3 .no-number-dark {
+    position: relative;
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000;
+    top: 10px;
+  }
   
   .text-list-menu .menu-numberB3 .description-list-menu {
     margin: auto;

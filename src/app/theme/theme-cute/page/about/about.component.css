@@ -810,6 +810,15 @@ body {
     text-transform: capitalize;
     color: #9f821a;
   }
+
+  .line-vertical .text-left .main-description .description-dark {
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+  }
   
   .line-vertical .text-right {
     transform: translateX(5%);

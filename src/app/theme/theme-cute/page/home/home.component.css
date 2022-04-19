@@ -8,7 +8,7 @@ body {
   }
   
   body::-webkit-scrollbar {
-      display: none; /* for Chrome, Safari, and Opera */
+      display: none;
     }
   
   .navbar {
@@ -270,6 +270,15 @@ body {
   
   .text-favorites {
     /* transform: translate(27.6%, 0%); */
+    margin: auto;
+    width: 45%;
+    margin-bottom: 100px;
+    color: #000000;
+  }
+
+  .text-favorites-dark {
+    /* transform: translate(27.6%, 0%); */
+    color: #ffffff;
     margin: auto;
     width: 45%;
     margin-bottom: 100px;
